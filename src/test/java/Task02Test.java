@@ -22,7 +22,7 @@ class Task02Test {
     }
     @Test
     void underInterval() {
-        assertFalse(Task02.numberInIntarval(10)); //Негативная проверка выхода значения за нижнюю границу интервала
+        assertFalse(Task02.numberInIntarval(10)); //Проверка выхода значения за нижнюю границу интервала
     }
 
     @Test

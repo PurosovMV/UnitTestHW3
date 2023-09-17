@@ -8,14 +8,14 @@ class Task01Test {
 
     @Test
     void evenNumberTest() {
-        assertTrue(Task01.evenOddNumber(4));//Положительная проверка чётного числа
+        assertTrue(Task01.evenOddNumber(4));//Проверка чётного числа
 
 
     }
 
     @Test
     void oddNumberTest() {
-        assertFalse(Task01.evenOddNumber(5));//Положительная проверка нечётного числа
+        assertFalse(Task01.evenOddNumber(5));//Проверка нечётного числа
 
 
     }
